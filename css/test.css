@@ -1,0 +1,99 @@
+
+/*section {
+    background-color: #E5E5E5;
+
+}*/
+/*:root{
+    --pretty-color: ;
+    --while-color: ;
+    --main-font: ;
+    --accent-font: ;
+
+} */
+/*.body {
+    font-family: Roboto;
+    color:#212121;
+    font-size: 14px;
+    line-height: 30px;*/
+
+
+/*button color activation*/
+
+
+
+
+/*header styles
+.header {
+    color: var(--while-color)
+}*/
+/*универсальный селектор
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }*/
+    
+/*селектор тега
+ul {
+    list-style: none;
+}*/
+/*классовый селектор
+.container{
+    width: 1600px;
+    background-color;
+    margin: 0 auto;
+}*/
+/*селектор идентификатора
+.link{
+    background: red;
+}*/
+
+/*селектор наследника
+.navList li
+{ 
+Font family: Roboto
+Font style: Medium
+Font size: 14px
+Line height: 16px
+Line height: 100%
+    hover; 
+
+}*/
+
+/*селектор ребенка
+.navList a:hover, 
+.navList a:focus,
+.navList a:active 
+    color: var(--pretty-color);
+    color: blue;
+}*/
+
+
+/*element.style: cursor pointer*/
+ /*button and link activation
+.buttonLink:active
+.buttonLink:hover
+.buttonLink:focus*/   
+
+/*footer styles*/
+
+
+/*footer styles
+.headerFooter:hover,
+.headerFooter:focus,
+{
+    color: }*/
+
+/*scc design*/
+
+
+
+
+/*button color activation
+.colorActive a:active;*/
+/*contacts activation*/
+/*селектор ребенка*/
+
+
+
+/*.navList */
