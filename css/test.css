@@ -100,3 +100,18 @@ Line height: 100%
 /*3dz: 
 h2 class="title", idu v variables 
 /*.container .maincontainer
+
+/* h2 class title: font family; font size*/
+ 
+/*h1,h2,h3,h4,h5,h6, ul {margin-top:0;
+  margin-bottom:0;
+
+/*body styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  *,
+  *::before,
+  *::after {box-sizing: border-box;}*/
