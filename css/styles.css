@@ -19,7 +19,9 @@
 }  
 ul {
   list-style: none;}
-
+/*width: 33.3333%;
+width: calk:(100% / 2)
+margin: -15px*/
 
 .container{
   width: 1200px;
@@ -36,6 +38,7 @@ ul {
 
 
 .section {
+  padding: 94px 0;
   margin: 0 auto;
   
 }
@@ -86,10 +89,10 @@ ul {
   padding-top: 200px;
 }
 
-.section .serviceStyle{
+/*.section .serviceStyle{
   padding: 94px 0;
   margin: 0 auto;
-}
+}*/
 
 .section .serviceStyle h2{
   text-align: center;
@@ -145,10 +148,10 @@ ul {
 .section .teamStyle {
   background: var(--button-background);
   text-align: center;
-  padding: 94px 0;
+  /* padding: 94px 0;*/
   margin: 0 auto;
- 
 }
+
 .teamStyle h2 {
   font-style: 'Roboto';
   font-weight: 700;
@@ -194,11 +197,11 @@ background: var(--document-background-color);
 color: var(--text-color);
 background: var(--document-background-color);
 display: flex;
-padding: 94px 0;
+/*padding: 94px 0; */
 margin: 0 auto;
 
-
 }
+
 .header .logoStyle{
   font-style: 'Railway';
   margin-top: 0;
@@ -213,9 +216,10 @@ margin: 0 auto;
 line-height: 1.17;
 font-weight: 500;
 display: flex;
-padding: 94px 0;
+/*padding: 94px 0;*/
 margin: 0 auto;
 }
+
 .navList li{
   margin-right: 50px;
 }
@@ -236,7 +240,7 @@ font-style: normal;
 
 .navList .navContacts
 { margin: 0;
-  padding: 94px 0;
+ /* padding: 94px 0;*/
 
 }
 
@@ -245,7 +249,7 @@ font-style: normal;
 line-height: 2;
 font-weight: 700;
 background: var(--document-background-color);
-padding: 94px 0;
+/*padding: 94px 0;*/
 margin: 0 auto;
 }
 
@@ -263,7 +267,7 @@ margin: 0 auto;
   width: 1200;
   border: var(--border-color);
   background: var(--header-background);
-  padding: 94px 0;
+  /*padding: 94px 0;*/
   margin: 0 auto;
  
 
@@ -328,7 +332,7 @@ display: inline-block;
 min-width: 200px;
 display: flex;
 text-align: center;
-padding: 94px 0;
+/*padding: 94px 0;*/
 margin: 0 auto;
 
 }
@@ -427,7 +431,7 @@ background-color: var(--footer-background);
 color:var(--footer-color);
 line-height: 1.71;
 margin:0;
-padding-top: 94px;
+/*padding-top: 94px;*/
 padding-bottom: 94px;
 
 }
