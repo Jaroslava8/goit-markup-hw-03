@@ -25,34 +25,37 @@ margin: -15px*/
 
 .container{
   width: 1200px;
-  margin: 0 auto;}
-
-.container{
-  box-sizing: border-box;
-  /*display: inline-block;*/
-  
+  margin: 0 auto;
+  box-sizing: border-box; 
 }
+
+ /*.container{
+  
+ display: inline-block;
+  
+}*/
  *,
   *::before,
   *::after {box-sizing: inherit;}
 
 
 .section {
-  padding: 94px 0;
-  margin: 0 auto;
-  
+  padding: 94px 0;  
 }
 
-
-.section .mainBox h1{
+.header .section .headerStyle{
+  border-bottom: 1px solid #ECECEC;
+}
+.mainBox h1 {
   font-family: Roboto;
   line-height: 60px;
   font-size: 44px;
-  margin:0;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 200px;
+  
 }
-.section .mainBox{
-  height: 600px;
-  width: 1200px;
+ .mainBox{
   font-family: var(--main-font);
   background: var(--section-color);
   color:var( --text-color);
@@ -61,7 +64,6 @@ margin: -15px*/
   line-height: 1.9;
   font-style: normal;
   text-align: center;
-  margin: 0 auto;
 
 }
 .mainBox .buttonPersonal
@@ -73,12 +75,12 @@ margin: -15px*/
   color: var(--active-color);
   line-height: 1.875;
   border-radius: 4px;
-  margin:0;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
   padding-right: 30px;
   text-align: center;
+  margin-bottom: 210px;
   
 }
 .section .mainBox h1{
@@ -87,14 +89,20 @@ margin: -15px*/
   margin:0;
   text-align: center;
   padding-top: 200px;
+  padding-bottom: 40px;
+ 
 }
 
-/*.section .serviceStyle{
-  padding: 94px 0;
-  margin: 0 auto;
-}*/
+.mainServices ul{
+  display: flex;
+ 
+}
+.mainServices li{
+  margin-right: 30px;
+}
+.mainServices:last-child{margin-right: 0px;}
 
-.section .serviceStyle h2{
+.serviceStyle h2{
   text-align: center;
   font-style: 'Roboto', normal;
   line-height: 1.1719;
@@ -103,36 +111,36 @@ margin: -15px*/
   margin:0 auto;
 
 }
-.section .serviceStyle ul {
+.serviceStyle ul{
   display: flex; 
   font-style: 'Rototo';
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7128;
-  box-sizing: border-box;
   padding-right: 10px;
   margin:0;
+  padding-top: 50px;
 }
 
-.section .serviceStyle li{
+.serviceStyle li{
  
   padding-right: 30px;
   padding-right: 30px;
   font-style: 'Roboto';
   margin: 0;
 }
-.section .serviceStyle h3{
- 
-  font-weight: 900;
+.serviceStyle h3{
   font-size: 14px;
   line-height: 1.1721;
   margin: 0;
+  padding-bottom: 50px;
 }
-.section .serviceStyle p{
+ .serviceStyle p{
   font-style: 400;
   margin: 0;
+  padding-bottom: 94px;
 }
-.section .serviceStyle img {
+ .serviceStyle img {
   width: 370;
   width: 100%;
   display: block;
@@ -141,15 +149,11 @@ margin: -15px*/
 }
 
 
-
-
 .section .serviceStyle :last-child{margin-right: 0px;}
 
-.section .teamStyle {
+.teamStyle {
   background: var(--button-background);
   text-align: center;
-  /* padding: 94px 0;*/
-  margin: 0 auto;
 }
 
 .teamStyle h2 {
@@ -158,21 +162,19 @@ margin: -15px*/
   font-size: 36px;
   line-height: 1.1719 ;
   margin: 0;
+  padding-bottom: 50px;
 }
-.section .teamStyle ul {
+.teamStyle ul {
   display: flex;
   text-align: center;
-  margin:0;
-   
-
+ 
 }
 .teamStyle li{
   margin-right:  30px;
   border: 1px solid #ECECEC;
-
 }
 
-.section .teamStyle img {
+.teamStyle img {
   margin-right: 30px;
   width: 370;
   width: 100%;
@@ -188,8 +190,12 @@ margin: -15px*/
 
 
 /*header styles*/
+
+.header a {
+  margin: 0;
+}
 .section .header .headerStyle{
-box-sizing: border-box;
+
 font-style: 'Roboto', medium;
 font-size: 14px;
 line-height: 1.1721;
@@ -216,12 +222,13 @@ margin: 0 auto;
 line-height: 1.17;
 font-weight: 500;
 display: flex;
-/*padding: 94px 0;*/
 margin: 0 auto;
 }
 
 .navList li{
   margin-right: 50px;
+  margin-bottom: 32px;
+  margin-top: 32px;
 }
 .navList :last-child {margin-right: 0px;}
 .navList a:hover,
@@ -233,25 +240,18 @@ font-weight: 500;
 font-style: normal;
 }
 .headerStyle{
-  display: flex;
-  align-items: center;
- border-bottom: 1px solid #ECECEC
+ display: flex;
+ align-items: center;
+ /*border-bottom: 1px solid #ECECEC*/
+
 }
 
 .navList .navContacts
-{ margin: 0;
+{ margin-right: 0;
  /* padding: 94px 0;*/
 
 }
 
-/*main container styles*/
-.section .services{
-line-height: 2;
-font-weight: 700;
-background: var(--document-background-color);
-/*padding: 94px 0;*/
-margin: 0 auto;
-}
 
 
 
@@ -272,7 +272,7 @@ margin: 0 auto;
  
 
 }
-.portfolioContainer ul{
+.portfolioContainer {
   display: flex;
   font-family: var(--main-font);
   color:var( --text-color);
@@ -281,7 +281,9 @@ margin: 0 auto;
   font-style: normal;
   
 
+
 }
+
 /*
 .container .portfolioContainer .photo + .photo{
   background-color: violet;
@@ -299,7 +301,7 @@ margin: 0 auto;
 
 .section .portfolioContainer .photo {
   display:inline-block;
-  margin-bottom: 0;
+  margin-bottom: 30px;
   margin-right: 30px;
   border: 1px solid #EEEEEE;
 }
@@ -333,7 +335,7 @@ min-width: 200px;
 display: flex;
 text-align: center;
 /*padding: 94px 0;*/
-margin: 0 auto;
+justify-content: center;
 
 }
 
@@ -379,7 +381,7 @@ margin: 0 auto;
 .button button:active,
 
 .button button{
-margin-right: 52px;
+margin-right: 8px;
 
 }
 .navList .buttonPersonal{
@@ -410,10 +412,7 @@ margin: 0;
 
 }
 /*footer styles*/
-.section .footer{
-  padding: 94px 0;
-  margin: 0 auto;
-}
+
 
 .footer a:hover,
 .footer a:focus,
@@ -425,17 +424,27 @@ font-style: 'Oleo Script';
 line-height: 1.1738;
 
 }
-.container .section .footer
+ .footer
 {
 background-color: var(--footer-background);
 color:var(--footer-color);
 line-height: 1.71;
-margin:0;
-/*padding-top: 94px;*/
-padding-bottom: 94px;
-
+padding: 94px 0;
+margin: 0 auto;
 }
-
+.footer .logoText{
+  margin-bottom: 20px;
+  margin-left: 0; 
+  margin-right: 0;
+  margin-top: 0;
+  
+}
+.footer a{
+  margin-bottom: 9px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
 
 /*parent color*/
 a {
