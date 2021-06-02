@@ -55,6 +55,7 @@ h2 h3 p {
   padding-top: 32px;
   margin-right: 50px;
 }
+ 
 
 .header .navContacts li{
   display: flex;
@@ -86,12 +87,12 @@ align-items: center;
 
 .header .logoStyle{
   font-family: 'Railway';
-  margin-top: 0;
-  margin-bottom: 0;
+  font-size: 26px;
   margin-left: 0;
   margin-right: 93px;
-  padding-bottom: 25px;
-  padding-top: 24px;
+  margin-bottom: 25px;
+  margin-top: 24px;
+  padding: 0;
 }
 
 
@@ -132,7 +133,7 @@ font-style: normal;
 
 .navList .navContacts
 { margin-right: 0;
- /* padding: 94px 0;*/
+ 
 
 }
 
@@ -155,8 +156,7 @@ font-style: normal;
   background: var(--section-color);
   color:var( --text-color);
   color: var(--active-color);
-  padding-top: 200px;
-  padding-bottom: 200px;
+ 
   text-align: center;
 
 }
@@ -168,10 +168,8 @@ font-style: normal;
   color: var(--active-color);
   line-height: 1.875;
   border-radius: 4px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  margin: 0;
+  padding: 0;
   text-align: center;
 
   
@@ -185,16 +183,19 @@ font-style: normal;
 }
 .mainServices li{
   margin-right: 30px;
+  width: 270px;
 
 }
 .mainServices h3{
   text-transform: uppercase;
+  line-height: 1.1721;
   margin-bottom: 10px;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
   padding: 0;
   font-family: 'Roboto';
+  font-size: 14px;
   font-style: 700;
   line-height: 1.1721;
   color: var(--text-color);
@@ -204,6 +205,7 @@ font-style: normal;
   padding: 0;
   font-family: 'Roboto';
   font-style: 400;
+  font-size: 14px;
   color: var(--main-text-color);
 }
 
@@ -225,31 +227,16 @@ font-style: normal;
 }
 .serviceStyle ul{
   display: flex; 
-  font-family: 'Rototo';
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7128;
   margin:0;
  
 }
 
 
 .serviceStyle li{
- 
- font-family: 'Roboto';
   margin-right: 30px;
 }
 .serviceStyle li:last-child{margin-right: 0px;}
 
-.serviceStyle h3{
-  font-style: 700;
-  font-size: 14px;
-  line-height: 1.1721;
-  margin: 0;
-  padding-bottom: 50px;
-}
- 
-  
 
  .serviceStyle img {
   margin-right: 30px;
