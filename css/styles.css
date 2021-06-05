@@ -144,9 +144,9 @@ font-weight: 500;
 .link{
   color: var(--web-color);
 }
-.navList a:hover,
-.navList a:focus,
-.navList a:active{
+.navList li:hover,
+.navList li:focus,
+.navList li:active{
 color: var(--web-color);
 cursor: pointer; 
 }
