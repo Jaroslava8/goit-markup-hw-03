@@ -16,8 +16,8 @@
   --border-color: #ECECEC;
   --main-text-color: #757575;
   --order-bottom-active: #188CE8;
-
 }  
+
 ul {
   list-style: none;
   margin: 0;
@@ -486,8 +486,8 @@ margin: 0 ;
   
   margin:0;
   padding: 0;
- 
 }
+
 .footer li{
   display:block;
   font-family: 'Roboto';
